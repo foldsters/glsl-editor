@@ -1,5 +1,5 @@
 module.exports = function(CodeMirror) {
-  CodeMirror.defineMode("glsl", function(config, parserConfig) {
+  CodeMirror.defineMode('glsl', function(config, parserConfig) {
     var indentUnit = config.indentUnit,
         keywords = parserConfig.keywords || words(glslKeywords),
         builtins = parserConfig.builtins || words(glslBuiltins),
@@ -204,4 +204,11 @@ module.exports = function(CodeMirror) {
       hooks: {"#": cppHook}
     });
   }());
+
+  CodeMirror.modeInfo.push({
+    name: 'GLSL',
+    mime: 'text/x-glsl',
+    mode: 'GLSL',
+    ext: ['glsl']
+  });
 }
