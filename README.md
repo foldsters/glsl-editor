@@ -26,7 +26,7 @@ jupyter labextension uninstall jupyterlab-openscad-syntax-highlighting
 
 ## License
 
-MIT. See [LICENSE.md](http://github.com/hughsk/glsl-editor/blob/master/LICENSE.md) for details.
+MIT. See [LICENSE.md](http://github.com/foldsters/glsl-editor/blob/master/LICENSE.md) for details.
 
 
 ## Attribution
