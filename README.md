@@ -1,4 +1,4 @@
-# JupyterLab GLSL Highlighting
+# JupyterLab GLSL Syntax Highlighting
 
 Syntax Highlighting for GLSL in JupyterLab
 
@@ -20,7 +20,7 @@ jupyter labextension install .
 ### Uninstall
 
 ```bash
-jupyter labextension uninstall jupyterlab-openscad-syntax-highlighting
+jupyter labextension uninstall jupyterlab-glsl-syntax-highlighting
 ```
 
 

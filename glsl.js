@@ -1,5 +1,5 @@
 module.exports = function(CodeMirror) {
-  CodeMirror.defineMode('glsl', function(config, parserConfig) {
+  CodeMirror.defineMode('GLSL', function(config, parserConfig) {
     var indentUnit = config.indentUnit,
         keywords = parserConfig.keywords || words(glslKeywords),
         builtins = parserConfig.builtins || words(glslBuiltins),
