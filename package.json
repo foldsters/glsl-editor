@@ -1,7 +1,7 @@
 {
-  "name": "Jupyterlab GLSL Syntax Highlighting",
+  "name": "JupyterLab GLSL Syntax Highlighting",
   "version": "1.0.0",
-  "description": "Syntax Highlighting for GLSL in Jupyterlab",
+  "description": "Syntax Highlighting for GLSL in JupyterLab",
   "main": "index.js",
   "license": "MIT",
   "scripts": {},

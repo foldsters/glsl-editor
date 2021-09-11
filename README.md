@@ -1,42 +1,36 @@
-# glsl-editor [![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
+# JupyterLab GLSL Highlighting
 
-[CodeMirror](http://codemirror.net/)-powered GLSL editor component.
+Syntax Highlighting for GLSL in JupyterLab
 
-## Usage
 
-[![NPM](https://nodei.co/npm/glsl-editor.png)](https://nodei.co/npm/glsl-editor/)
+## Install
 
-### `editor = Editor(options)`
+### Install from Github
 
-Creates a new editor, where `options` is passed directly onto CodeMirror. You
-can find a full list [here](http://codemirror.net/doc/manual.html#config).
+```bash
+# Clone the repo to your local environment
+git clone https://github.com/foldsters/glsl-editor.git
+# Move to glsl-editor directory
+cd glsl-editor
+# Install your development version of the extension into JupyterLab
+npm install
+jupyter labextension install .
+```
 
-Additionally, the `container` option determines which DOM element to attach the
-editor to. By default, this will be `document.body`.
+### Uninstall
 
-### `editor.resize()`
+```bash
+jupyter labextension uninstall jupyterlab-openscad-syntax-highlighting
+```
 
-Automatically resize the editor to fill its parent element. This on creating the
-editor but you'll want to call it again when the window is resized.
-
-### `editor.getValue()`
-
-Gets the text content of the editor.
-
-### `editor.setValue(value)`
-
-Sets the text content of the editor to `value`.
-
-### `editor.editor`
-
-The CodeMirror editor instance.
-
-### `require('glsl-editor/css')`
-### `require('glsl-editor/theme')`
-
-Inlines the base CodeMirror CSS and a default theme respectively. Useful for
-just getting started quickly, but entirely optional.
 
 ## License
 
 MIT. See [LICENSE.md](http://github.com/hughsk/glsl-editor/blob/master/LICENSE.md) for details.
+
+
+## Attribution
+
+Forked and modified from [hughsk/glsl-editor](https://github.com/hughsk/glsl-editor) - a full CodeMirror glsl editor under the MIT Licence
+
+Modified from [pschatzmann/jupyterlab-openscad-syntax-highlighting](https://github.com/pschatzmann/jupyterlab-openscad-syntax-highlighting) - a JupyterLab Syntax Highlighter for OpenSCAD
