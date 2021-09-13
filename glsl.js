@@ -196,7 +196,7 @@ module.exports = function(CodeMirror) {
     }
 
     CodeMirror.defineMIME("text/x-glsl", {
-      name: "glsl",
+      name: "GLSL",
       keywords: words(glslKeywords),
       builtins: words(glslBuiltins),
       blockKeywords: words("case do else for if switch while struct"),
